@@ -18,3 +18,5 @@ rm -rf package/lean/luci-theme-argon
 rm -rf themes/luci-theme-argon
 
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
