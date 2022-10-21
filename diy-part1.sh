@@ -29,3 +29,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 
 
 sed -i '$a src-git kenzo https://github.com/xiaomeng9597/openwrt-packages' feeds.conf.default
+
+
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
