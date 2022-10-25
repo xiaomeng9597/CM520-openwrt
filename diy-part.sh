@@ -36,4 +36,4 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
 sed -i 's/src-git packages/#src-git packages/g' feeds.conf.default
-git clone -b openwrt-19.07 https://github.com/coolsnowwolf/packages.git package
+git clone -b openwrt-19.07 https://github.com/coolsnowwolf/packages.git
