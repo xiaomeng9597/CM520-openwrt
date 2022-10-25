@@ -73,4 +73,4 @@ sed -i '$a src-git kenzo https://github.com/xiaomeng9597/openwrt-packages' feeds
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
-git clone https://github.com/destan19/OpenAppFilter.git feeds/packages
+git clone https://github.com/xiaomeng9597/openwrtphp7.git feeds/packages
