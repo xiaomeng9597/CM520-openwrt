@@ -32,3 +32,16 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 
 sed -i '$a src-git kenzo https://github.com/xiaomeng9597/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+
+
+
+
+
+
+sed -i 's/coolsnowwolf\/luci/xiaomeng9597\/luci/g' feeds.conf.default
+sed -i 's/luci-app-samba4/luci-app-samba/g' package/lean/autosamba/Makefile
+sed -i 's/luci-app-unblockmusic//g' target/linux/ipq40xx/Makefile
+sed -i 's/CONFIG_FAT_DEFAULT_IOCHARSET=\"iso8859-1\"/CONFIG_FAT_DEFAULT_IOCHARSET=\"utf8\"/g' target/linux/generic/config-6.0
+sed -i 's/CONFIG_FAT_DEFAULT_IOCHARSET=\"iso8859-1\"/CONFIG_FAT_DEFAULT_IOCHARSET=\"utf8\"/g' target/linux/generic/config-5.4
+sed -i 's/CONFIG_FAT_DEFAULT_IOCHARSET=\"iso8859-1\"/CONFIG_FAT_DEFAULT_IOCHARSET=\"utf8\"/g' target/linux/generic/config-5.15
+sed -i 's/CONFIG_FAT_DEFAULT_IOCHARSET=\"iso8859-1\"/CONFIG_FAT_DEFAULT_IOCHARSET=\"utf8\"/g' target/linux/generic/config-5.10
