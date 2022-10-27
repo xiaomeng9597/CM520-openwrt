@@ -35,5 +35,4 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
 
-#git clone https://github.com/xiaomeng9597/openwrtphp7.git package/feeds/packages
 #git clone https://github.com/xiaomeng9597/openwrtphp7.git feeds/packages/lang
