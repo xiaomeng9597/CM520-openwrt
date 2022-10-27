@@ -36,8 +36,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 
 
-
-
+# 修改所需的文件
 sed -i 's/coolsnowwolf\/luci/xiaomeng9597\/luci/g' feeds.conf.default
 sed -i 's/luci-app-samba4/luci-app-samba/g' package/lean/autosamba/Makefile
 sed -i 's/luci-app-unblockmusic//g' target/linux/ipq40xx/Makefile
