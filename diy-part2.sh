@@ -16,7 +16,6 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 
 
 # 修改所需的文件
-sed -i 's/coolsnowwolf\/luci/xiaomeng9597\/luci/g' feeds.conf.default
 sed -i 's/luci-app-samba4/luci-app-samba/g' package/lean/autosamba/Makefile
 sed -i 's/luci-app-unblockmusic//g' target/linux/ipq40xx/Makefile
 sed -i 's/CONFIG_FAT_DEFAULT_IOCHARSET=\"iso8859-1\"/CONFIG_FAT_DEFAULT_IOCHARSET=\"utf8\"/g' target/linux/generic/config-6.0
