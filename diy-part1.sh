@@ -28,6 +28,6 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
 
-#sed -i 's/coolsnowwolf\/luci/xiaomeng9597\/luci/g' feeds.conf.default
+sed -i 's/coolsnowwolf\/luci/xiaomeng9597\/luci/g' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/xiaomeng9597/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
